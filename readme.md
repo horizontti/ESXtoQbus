@@ -2,7 +2,7 @@
 How to convert ESX to Qbus
 
 <picture>
-  <img src="img_orange_flowers.jpg" style="width:auto;">
+  <img src="http://img.aijaa.com/t/00969/14970800.t.jpg" style="width:auto;">
   <br>
   <img src="img_orange_flowers.jpg" style="width:auto;">
   <br>
@@ -31,4 +31,3 @@ How to convert ESX to Qbus
   <img src="img_orange_flowers.jpg" style="width:auto;">
   <br>
 </picture>
-[url=https://aijaa.com/eZIFuB][img]http://img.aijaa.com/t/00969/14970800.t.jpg[/img][/url]
