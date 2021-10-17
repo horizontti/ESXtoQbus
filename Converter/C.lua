@@ -28,6 +28,13 @@ xPlayer.setJob                          = xPlayer.Functions.SetJob
 xPlayer.setMoney                        = xPlayer.Functions.SetMoney
 xPlayer.showHelpNotification            = TriggerClientEvent('QBCore:Notify')
 xPlayer.showNotification                = TriggerClientEvent('QBCore:Notify')
+xPlayer.setCoords                       = None (used for teleporting)
+xPlayer.setMaxWeight                    = None (It is set in qb-core config)
+xPlayer.setName                         = None (dont bother)
+xPlayer.setWeaponTint                   = None (qb-weapons does this)
+xPlayer.triggerEvent                    = None (dont bother)
+xPlayer.updateCoords                    = None (dont bother)
+
 -- esx:
 esx:onPlayerDeath                       = hospital:server:SetDeathStatus
 esx:playerLoaded                        = QBCore:Client:OnPlayerLoaded (use for setting a variable to let the script know the player is ready)
@@ -41,6 +48,7 @@ playerSpawned                           = QBCore:Client:OnPlayerLoaded (spawnman
 esx:addInventoryItem                    = QBCore:Server:AddItem
 esx:removeInventoryItem                 = QBCore:Server:RemoveItem
 esx:useItem                             = QBCore:Server:UseItem
+
 -- SQL
 MySQL.Async.fetchScalar()               = exports['ghmattimysql']:scalar() or QBCore.Functions.ExecuteSql(true,
 MySQL.Async.fetchAll()                  = exports['ghmattimysql']:execute() or QBCore.Functions.ExecuteSql(true,
@@ -63,13 +71,6 @@ ESX.Game.SpawnObject                    = None (Can use FiveM Native CreateObjec
 ESX.CreatePickup                        = None (irrelevant and done through qb-inventory)
 ESX.GetItemLabel                        = None (Just returns item label)
 ESX.SavePlayers                         = None (dont bother)
-
-xPlayer.setCoords                       = None (used for teleporting)
-xPlayer.setMaxWeight                    = None (It is set in qb-core config)
-xPlayer.setName                         = None (dont bother)
-xPlayer.setWeaponTint                   = None (qb-weapons does this)
-xPlayer.triggerEvent                    = None (dont bother)
-xPlayer.updateCoords                    = None (dont bother)
 
 -- Other
 ESX.Game.Teleport                       = (Can use FiveM Native SetEntityCoords and SetEntityHeading)
